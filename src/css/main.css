@@ -93,6 +93,7 @@
         padding-top: 20px;
         letter-spacing: 1.5px;
         position: relative;
+        transition: all .3s;
 
         &:before {
           content: url('../src//img/arr.png');
@@ -100,6 +101,10 @@
           left: -50px;
           top: -50px;
 
+        }
+
+        &:hover {
+          box-shadow: 0 0 10px rgba(255,255,255,0.5);
         }
 
         @media(max-width: 480px) {

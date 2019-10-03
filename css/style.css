@@ -130,7 +130,8 @@
         display: inline-block;
         padding-top: 20px;
         letter-spacing: 0.09375rem;
-        position: relative
+        position: relative;
+        transition: all .3s
       }
 .main__result__btn a:before {
           content: url('../src//img/arr.png');
@@ -138,6 +139,9 @@
           left: -50px;
           top: -50px;
 
+        }
+.main__result__btn a:hover {
+          box-shadow: 0 0 10px rgba(255,255,255,0.5);
         }
 @media(max-width: 480px) {
 
