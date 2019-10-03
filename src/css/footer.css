@@ -1,0 +1,31 @@
+.footer {
+  background-color: #3a3a3a;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 18px;
+  color: #adacac;
+  padding: 50px 0;
+
+  @media(max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.fblock {
+  display: flex;
+  justify-content: space-between;
+
+  @media(max-width: 480px) {
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  &__item:last-child{
+    text-align: right;
+
+    @media(max-width: 480px) {
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+}
