@@ -50,6 +50,12 @@
       height: auto
 }
     }
+@media(max-width: 768px) {
+.main {
+      background-size: contain;
+      background-position: center top
+}
+    }
 .main__title {
       color: #ffffff;
       font-family: "Proxima Nova - Extrabld";
@@ -61,7 +67,6 @@
       letter-spacing: 0.15rem
     }
 @media(max-width: 480px) {
-
 
     .main__title {
         font-size: 1.5rem;

@@ -10,6 +10,10 @@
       height: auto;
     }
 
+    @media(max-width: 768px) {
+      background-size: contain;
+      background-position: center top;
+    }
 
     &__title {
       color: #ffffff;
