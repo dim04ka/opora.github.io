@@ -37,4 +37,10 @@
         text-decoration-line: none;
         letter-spacing: 1px;
     }
+
+    &__email {
+        @media(max-width: 480px) {
+            margin-bottom: 30px;
+        }
+    }
 }
