@@ -11,6 +11,12 @@
         }
     }
 
+    &__logo {
+        @media(max-width: 480px) {
+            margin-bottom: 30px
+        }
+    }
+
     &__logo img{
         @media(max-width: 480px) {
             width: 100%;
