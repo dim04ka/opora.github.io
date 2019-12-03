@@ -5,7 +5,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 30px 0;
+        padding: 20px 0;
 
         @media(max-width: 768px) {
             flex-direction: column;
@@ -35,7 +35,7 @@
         font-family: "Proxima Nova";
         font-size: 18px;
         text-align: right;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         letter-spacing: 1px;
 
         @media(max-width: 768px) {
@@ -52,7 +52,7 @@
     &__disc a{
         color: #323232;
         font-family: "Proxima Nova - Semibold";
-        font-size: 24px;
+        font-size: 23px;
         text-decoration-line: none;
         letter-spacing: 1px;
 
